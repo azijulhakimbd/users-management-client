@@ -1,12 +1,40 @@
-# React + Vite
+# 👥 User Management Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack User Management System built to handle user accounts with authentication, role-based access, and CRUD operations. Ideal for admin dashboards and internal tools.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🔐 User authentication (JWT-based)
+- 👤 User registration and login
+- 🛡️ Role-based access control (Admin/User)
+- ✏️ Full CRUD operations on users
+- 🔒 Password hashing with bcrypt
+- 🌐 RESTful API
+- 📱 Responsive frontend (React)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+**Frontend:**
+
+- React
+- Axios
+-
+
+**Backend:**
+
+- Node.js
+- Express.js
+- MongoDB
+
+---
+
+## 📦 Installation
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/user-management-client.git
+cd user-management-client
+```
